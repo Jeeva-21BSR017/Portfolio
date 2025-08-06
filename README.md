@@ -122,49 +122,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-# Usage :joystick:
-
-Please create a new `.env` file from `.env.example` file.
-
-Eg:
-
-```env
-NEXT_PUBLIC_GTM =
-NEXT_PUBLIC_APP_URL =
-TELEGRAM_BOT_TOKEN =
-TELEGRAM_CHAT_ID =
-GMAIL_PASSKEY =
-EMAIL_ADDRESS =
-```
-
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
-
-Eg:
-
-```javascript
-export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
-};
-```
-
-`devUsername` is used for fetching blog posts from `dev.to`.
-
----
-
 # Deployment :rocket:
 
 Deploying the app to platforms like Vercel or Netlify is quick and easy.
